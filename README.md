@@ -1,4 +1,4 @@
 # slides
-Work in progress
+List of available presentations:
 
-[test](http://htmlpreview.github.com/?https://github.com/PetrBaca/slides/blob/master/2016-04-06-VSE-presentations.html)
+*[VSE](http://htmlpreview.github.com/?https://github.com/PetrBaca/slides/blob/master/2016-04-06-VSE-oil-markets.html)
