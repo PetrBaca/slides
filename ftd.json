@@ -1,0 +1,58 @@
+{
+  "@context": "https://project-open-data.cio.gov/v1.1/schema/catalog.jsonld",
+  "@id": "http://api.census.gov/data/eits/ftd.json",
+  "@type": "dcat:Catalog",
+  "conformsTo": "https://project-open-data.cio.gov/v1.1/schema",
+  "describedBy": "https://project-open-data.cio.gov/v1.1/schema/catalog.json",
+  "dataset": [
+    {
+      "c_dataset": [
+        "eits",
+        "ftd"
+      ],
+      "c_geographyLink": "http://api.census.gov/data/eits/ftd/geography.json",
+      "c_variablesLink": "http://api.census.gov/data/eits/ftd/variables.json",
+      "c_examplesLink": "http://api.census.gov/data/eits/ftd/examples.json",
+      "c_documentationLink": "http://www.census.gov/developers/",
+      "c_isTimeseries": true,
+      "c_isAvailable": false,
+      "@type": "dcat:Dataset",
+      "title": "Economic Indicators Time Series - U.S. International Trade in Goods and Services",
+      "accessLevel": "public",
+      "bureauCode": [
+        "006:07"
+      ],
+      "description": "The U.S. Census Bureau.s economic indicator surveys provide monthly and quarterly data that are timely, reliable, and offer comprehensive measures of the U.S. economy. These surveys produce a variety of statistics covering construction, housing, international trade, retail trade, wholesale trade, services and manufacturing. The survey data provide measures of economic activity that allow analysis of economic performance and inform business investment and policy decisions. Other data included, which are not considered principal economic indicators, are the Quarterly Summary of State & Local Taxes, Quarterly Survey of Public Pensions, and the Manufactured Homes Survey.  For information on the reliability and use of the data, including important notes on estimation and sampling variance, seasonal adjustment, measures of sampling variability, and other information pertinent to the economic indicators, visit the individual programs' webpages - http://www.census.gov/cgi-bin/briefroom/BriefRm.",
+      "c_unavailableMessage": "This dataset is currently unavailable.",
+      "distribution": [
+        {
+          "@type": "dcat:Distribution",
+          "accessURL": "http://api.census.gov/data/eits/ftd",
+          "description": "API endpoint",
+          "format": "API",
+          "mediaType": "application/json",
+          "title": "API endpoint"
+        }
+      ],
+      "contactPoint": {
+        "fn": "Economic Indicators Mail List",
+        "hasEmail": "econ.indicators@census.gov"
+      },
+      "identifier": "http://api.census.gov/data/id/eitsftd",
+      "spatial": "US",
+      "temporal": "2013",
+      "publisher": {
+        "@type": "org:Organization",
+        "name": "US Census Bureau",
+        "subOrganizationOf": {
+             "@type": "org:Organization",
+             "name": "U.S. Department Of Commerce",
+             "subOrganizationOf": {
+                 "@type": "org:Organization",
+                 "name": "U.S. Government"
+             }
+         }
+      }
+    }
+  ]
+}
